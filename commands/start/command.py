@@ -8,7 +8,6 @@ import datetime
 import os
 
 from utils.decorators import send_typing_action
-from utils.config import USER_IDS
 
 
 reply_keyboard = [['/movie'],['/anime']]
@@ -23,4 +22,4 @@ def start(bot, update):
     print("User {} started the bot!".format(update.message.chat_id))
 
 
-start_handler = CommandHandler('start', start, Filters.user(user_id=USER_IDS))
+start_handler = CommandHandler('start', start)

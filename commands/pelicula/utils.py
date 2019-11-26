@@ -10,7 +10,7 @@ from babelfish import Language
 from subliminal import download_best_subtitles, save_subtitles, Movie
 from subliminal.subtitle import get_subtitle_path
 
-from commands.pelicula.constants import SUBS_DIR, YT_LINK
+from commands.pelicula.constants import YT_LINK
 
 logger = logging.getLogger(__name__)
 

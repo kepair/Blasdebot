@@ -8,7 +8,6 @@ from commands.pelicula.utils import (
     prettify_basic_movie_info,
 )
 from utils.decorators import send_typing_action
-from utils.config import USER_IDS
 
 
 
@@ -58,4 +57,4 @@ def buscar_peli(bot, update, chat_data, **kwargs):
             text='There has been a connection error. ¿?',
             parse_mode='markdown',
         )
-movie_handler = CommandHandler('movie', buscar_peli,Filters.user(user_id=USER_IDS), pass_args=True, pass_chat_data=True)
+movie_handler = CommandHandler('movie', buscar_peli, pass_args=True, pass_chat_data=True)

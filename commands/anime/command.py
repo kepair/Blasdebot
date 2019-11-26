@@ -6,7 +6,6 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, run_a
 import logging
 
 from utils.decorators import send_typing_action
-from utils.config import USER_IDS
 from commands.anime.utils import request_anime, namer
 from commands.pelicula.callback import make_tiny
 
@@ -49,4 +48,4 @@ def anime_message(bot, update, chat_data, **kwargs):
         return
         
 
-anime_message_handler = CommandHandler('anime', anime_message, Filters.user(user_id=USER_IDS), pass_args=True, pass_chat_data=True)
+anime_message_handler = CommandHandler('anime', anime_message, pass_args=True, pass_chat_data=True)
