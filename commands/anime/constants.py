@@ -1,0 +1,1 @@
+NYAA_URL='https://nyaa.si/'
