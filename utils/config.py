@@ -1,3 +1,2 @@
-token = '1029064783:AAG32aKGrxdpINBFSdRP683Eh4j3cRqGW3o' #Telegram Bo API token
-MYTVDB_API_KEY = '0e2ea026455132c99506af3a403521d6'     #MyTVDB api key
-
+token = '' #Telegram Bo API token
+MYTVDB_API_KEY = ''     #MyTVDB api key

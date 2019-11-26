@@ -1,5 +1,3 @@
-utils/config.py
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -7,6 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
+
+#Hide API keys
+apiKeys*
 
 # Distribution / packaging
 .Python
