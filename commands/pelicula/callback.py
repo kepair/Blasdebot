@@ -16,8 +16,6 @@ from commands.pelicula.constants import (
     TORRENT,
     SINOPSIS,
     NO_TRAILER_MESSAGE,
-    SUBTITLES,
-    LOADING_GIFS,
     PELICULA_REGEX)
 from commands.pelicula.keyboard import pelis_keyboard
 from commands.pelicula.utils import (

@@ -2,7 +2,7 @@ from functools import lru_cache
 
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton as Button
 
-from commands.pelicula.constants import IMDB, YOUTUBE, TORRENT, SINOPSIS, SUBTITLES
+from commands.pelicula.constants import IMDB, YOUTUBE, TORRENT, SINOPSIS
 
 
 @lru_cache(1)
