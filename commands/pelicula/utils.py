@@ -75,9 +75,7 @@ def get_yts_torrent_info(imdb_id):
     try:
         logger.info(imdb_id)
         r = requests.get(yts_api, params={"query_term": imdb_id})
-        logger.info('Here it comes the full response')
     except requests.exceptions.ConnectionError:
-        logger.info("yts api no responde.")
         return None
     if r.status_code == 200:
         torrent = r.json()  # Dar url en lugar de hash.
